@@ -1,21 +1,43 @@
-## 🚀 Crypto Dashboard
+CodeFlow AI is a modern frontend project focused on building a developer-friendly landing page with interactive UI, animated sections, and live code previews.
 
-A sleek and responsive **React** application that provides **real-time cryptocurrency market data** with interactive visualizations and detailed analytics.
+The project demonstrates clean component structure, smooth animations, and a polished visual experience inspired by modern SaaS products.
 
-### 🔍 Features
-- **Live Prices:** Displays up-to-date cryptocurrency prices with auto-refresh.
-- **Interactive Charts:** Built with **Recharts**, showing price trends, market caps, and total volume.
-- **Detailed Analytics:** Click on any cryptocurrency to view its full graph and market data.
-- **Search Functionality:** Easily find any crypto by name or symbol.
-- **Pagination:** Smooth navigation with 20 crypto assets displayed per page.
-- **Modern UI:** Clean, responsive, and optimized for all devices.
+✨ Features
 
-### 🛠️ Tech Stack
-- **Frontend:** React.js  
-- **Charts:** Recharts  
-- **API:** (e.g., CoinGecko API or CoinMarketCap API — specify yours here)  
+Interactive Hero section with mouse-based effects
 
-### ⚙️ Getting Started
-1. Clone the repository  
-   ```bash
-   git clone https://github.com/Ehsan-al79/CryptoApp.git
+Live code preview with syntax highlighting
+
+Reusable React components (Hero, Navbar, etc.)
+
+Animated and responsive UI
+
+Clean and scalable project structure
+
+🛠 Tech Stack
+
+React
+
+Tailwind CSS
+
+JavaScript (ES6+)
+
+react-icons
+
+react-syntax-highlighter
+
+📁 Project Structure
+src/
+ ├─ components/      # Reusable UI components
+ ├─ data/            # Static data (code examples, UI configs)
+ ├─ pages/           # Page-level components
+ ├─ App.jsx
+ └─ main.jsx
+
+🚀 Getting Started
+npm install
+npm run dev
+
+📌 Purpose
+
+This project is built for learning, experimentation, and showcasing modern frontend UI/UX patterns.
