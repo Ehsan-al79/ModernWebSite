@@ -4,7 +4,7 @@ export default function Layout({ children }) {
 
  
   return (
-    <div className="w-full">
+    <div className="w-full px-2">
       
     
       <header className="flex w-full px-3 md:px-40 lg:px-60 xl:px-80">

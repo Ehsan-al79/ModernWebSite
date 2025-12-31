@@ -47,9 +47,9 @@ export default function TableCoin({ chart, coins, currency, setChart }) {
     <>
       <table className="text-white flex flex-col w-full">
         <thead>
-          <tr className="max:md:-ml-4 grid grid-cols-5 md:grid-cols-6 max-xl:py-5 py-10 text-xl max-sm:mx-1 border-b-2 [*>&]:text-nowrap">
+          <tr className="max-md:flex max-md:gap-x-10 md:grid md:grid-cols-6 max-xl:py-5 py-10 text-xl max-sm:mx-1 border-b-2 [*>&]:text-nowrap">
             <th>Coin</th>
-            <th className=" hidden md:flex ml-5">Name</th>
+            <th className=" hidden md:flex ">Name</th>
             <th>Price</th>
             <th>24h</th>
             <th>Total Volume</th>
@@ -59,7 +59,7 @@ export default function TableCoin({ chart, coins, currency, setChart }) {
         <tbody className="flex flex-col items-center justify-center w-full">
           {coins.map((item) => (
             <tr
-              className="justify-between [&>*]:w-36 flex py-5 w-full items-center lg:px-10  [&>*]:text-center border-b-1 border-[rgba(255,255,255,0.1)]"
+              className="justify-between [&>*]:w-36 flex py-5 w-full items-center lg:px-5  [&>*]:text-center border-b-1 border-[rgba(255,255,255,0.1)]"
               key={item.id}
             >
               <td>
