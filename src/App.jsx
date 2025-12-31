@@ -1,3 +1,4 @@
+import picture from "/picture.png";
 import { PiBagSimpleFill } from "react-icons/pi";
 import { AiFillHome } from "react-icons/ai";
 import { BiLogoGmail } from "react-icons/bi";
@@ -21,7 +22,7 @@ export default function App() {
         <aside>
           <div className="w-full relative">
             <img
-              src="/public/picture.png"
+              src={picture}
               className="w-full"
               alt="Ehsan Alimardani"
             />
